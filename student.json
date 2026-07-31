@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "age": 20,
+    "gender": "Male",
+    "course": "Computer Science",
+    "year": 2,
+    "cgpa": 8.7
+  },
+  {
+    "id": 2,
+    "name": "Ananya Verma",
+    "age": 19,
+    "gender": "Female",
+    "course": "Information Technology",
+    "year": 1,
+    "cgpa": 9.1
+  },
+  {
+    "id": 3,
+    "name": "Rohan Gupta",
+    "age": 21,
+    "gender": "Male",
+    "course": "Electronics",
+    "year": 3,
+    "cgpa": 8.3
+  },
+  {
+    "id": 4,
+    "name": "Priya Singh",
+    "age": 20,
+    "gender": "Female",
+    "course": "Mechanical",
+    "year": 2,
+    "cgpa": 8.9
+  },
+  {
+    "id": 5,
+    "name": "Karan Mehta",
+    "age": 22,
+    "gender": "Male",
+    "course": "Civil",
+    "year": 4,
+    "cgpa": 7.8
+  },
+  {
+    "id": 6,
+    "name": "Sneha Yadav",
+    "age": 19,
+    "gender": "Female",
+    "course": "Computer Science",
+    "year": 1,
+    "cgpa": 9.4
+  },
+  {
+    "id": 7,
+    "name": "Vikram Patel",
+    "age": 21,
+    "gender": "Male",
+    "course": "Electrical",
+    "year": 3,
+    "cgpa": 8.1
+  },
+  {
+    "id": 8,
+    "name": "Neha Kapoor",
+    "age": 20,
+    "gender": "Female",
+    "course": "Artificial Intelligence",
+    "year": 2,
+    "cgpa": 9.2
+  },
+  {
+    "id": 9,
+    "name": "Aditya Joshi",
+    "age": 22,
+    "gender": "Male",
+    "course": "Data Science",
+    "year": 4,
+    "cgpa": 8.5
+  },
+  {
+    "id": 10,
+    "name": "Ishita Malhotra",
+    "age": 21,
+    "gender": "Female",
+    "course": "Cyber Security",
+    "year": 3,
+    "cgpa": 9.0
+  }
+]
