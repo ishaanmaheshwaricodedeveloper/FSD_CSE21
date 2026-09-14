@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Ishaan Maheshwari — AI Engineering, applied research, LLM systems and empirical model evaluation."
+    >
+
+    <title>Ishaan Maheshwari | AI Engineering</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">IM<span>.</span></a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="hero-container">
+
+                <div class="hero-content">
+                    <p class="eyebrow">AI ENGINEERING · APPLIED RESEARCH</p>
+
+                    <h1>
+                        Building AI systems.
+                        <span>Testing what actually works.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I'm Ishaan Maheshwari, a second-year Computer Science
+                        undergraduate focused on applied AI engineering,
+                        empirical model evaluation, and reproducible experiments.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="button button-primary">
+                            View my work
+                        </a>
+
+                        <a
+                            href="https://github.com/csequenc"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="button button-secondary"
+                        >
+                            GitHub ↗
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <span>research.py</span>
+                    </div>
+
+                    <div class="terminal-body">
+                        <p>
+                            <span class="code-purple">def</span>
+                            <span class="code-blue">investigate</span>(question):
+                        </p>
+
+                        <p class="indent">
+                            <span class="code-purple">experiments</span> =
+                            design_controlled_experiments(question)
+                        </p>
+
+                        <p class="indent">
+                            <span class="code-purple">results</span> =
+                            run_across_seeds(experiments)
+                        </p>
+
+                        <p class="indent">
+                            <span class="code-purple">result</span> =
+                            evaluate(results)
+                        </p>
+
+                        <p class="indent">
+                            <span class="code-purple">return</span> document(result)
+                        </p>
+
+                        <br>
+
+                        <p class="terminal-comment">
+                            # including negative results.
+                        </p>
+
+                        <span class="terminal-cursor"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span></span>
+                SCROLL TO EXPLORE
+            </div>
+        </section>
+
+
+
+        <section class="section about" id="about">
+            <div class="section-container">
+
+                <div class="section-label">
+                    <span>01</span>
+                    ABOUT
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-heading">
+                        <h2>
+                            From building models
+                            <em>to understanding them.</em>
+                        </h2>
+                    </div>
+
+                    <div class="about-text">
+                        <p>
+                            I'm a Computer Science undergraduate interested in
+                            what happens beyond simply getting an AI system to work.
+                        </p>
+
+                        <p>
+                            My current focus is applied AI engineering and empirical
+                            model evaluation — building systems, designing controlled
+                            experiments, and figuring out whether an observed
+                            improvement is actually meaningful.
+                        </p>
+
+                        <p>
+                            I particularly enjoy working with LLMs, retrieval systems,
+                            parameter-efficient fine-tuning, and evaluation pipelines.
+                        </p>
+
+                        <div class="about-facts">
+                            <div class="fact">
+                                <strong>9.3</strong>
+                                <span>CGPA / 10</span>
+                            </div>
+
+                            <div class="fact">
+                                <strong>2029</strong>
+                                <span>Expected graduation</span>
+                            </div>
+
+                            <div class="fact">
+                                <strong>2+</strong>
+                                <span>Independent AI projects</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="section projects" id="projects">
+            <div class="section-container">
+
+                <div class="section-label">
+                    <span>02</span>
+                    SELECTED WORK
+                </div>
+
+                <div class="section-intro">
+                    <h2>Projects with a question behind them.</h2>
+                    <p>
+                        I prefer projects where building the system is only the
+                        beginning — the interesting part is understanding its behavior.
+                    </p>
+                </div>
+
+
+                <article class="project-card featured-project">
+
+                    <div class="project-number">01</div>
+
+                    <div class="project-main">
+                        <div class="project-meta">
+                            <span>INDEPENDENT PROJECT</span>
+                            <span>2026</span>
+                        </div>
+
+                        <h3>LoRA vs. DoRA</h3>
+
+                        <p class="project-subtitle">
+                            A Rank-8 Case Study on Text-to-SQL
+                        </p>
+
+                        <p class="project-description">
+                            A controlled comparison of LoRA and DoRA fine-tuning
+                            on Qwen2.5-1.5B for text-to-SQL using the Spider dataset.
+                            After an initial single-seed difference failed to
+                            reproduce, I expanded the experiment across three
+                            independent seeds.
+                        </p>
+
+                        <div class="project-findings">
+                            <div>
+                                <strong>89.7%</strong>
+                                <span>Per-example agreement</span>
+                            </div>
+
+                            <div>
+                                <strong>~20%</strong>
+                                <span>Lower DoRA throughput</span>
+                            </div>
+
+                            <div>
+                                <strong>3</strong>
+                                <span>Independent seeds</span>
+                            </div>
+                        </div>
+
+                        <div class="project-tags">
+                            <span>PyTorch</span>
+                            <span>PEFT</span>
+                            <span>Transformers</span>
+                            <span>LoRA</span>
+                            <span>DoRA</span>
+                            <span>Text-to-SQL</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/csequenc"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Code ↗
+                            </a>
+
+                            <a
+                                href="https://github.com/csequenc/lora-vs-dora-spider/blob/main/experiment/README.MD"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                            Report ↗
+                            </a>
+                        </div>
+                    </div>
+
+                </article>
+
+
+
+                <article class="project-card">
+
+                    <div class="project-number">02</div>
+
+                    <div class="project-main">
+                        <div class="project-meta">
+                            <span>INDEPENDENT PROJECT</span>
+                        </div>
+
+                        <h3>RAG & Agentic AI System</h3>
+
+                        <p class="project-description">
+                            An end-to-end retrieval-augmented generation and
+                            tool-calling system built first from lower-level
+                            components and later migrated to LangChain.
+                        </p>
+
+                        <div class="project-highlights">
+                            <div>
+                                <span class="highlight-marker">→</span>
+                                SentenceTransformers + FAISS retrieval
+                            </div>
+
+                            <div>
+                                <span class="highlight-marker">→</span>
+                                Modular generation and tool-calling architecture
+                            </div>
+
+                            <div>
+                                <span class="highlight-marker">→</span>
+                                LLM-as-judge evaluation pipeline
+                            </div>
+
+                            <div>
+                                <span class="highlight-marker">→</span>
+                                Prompt-injection guardrail testing
+                            </div>
+
+                            <div>
+                                <span class="highlight-marker">→</span>
+                                FastAPI REST API with request logging
+                            </div>
+                        </div>
+
+                        <div class="project-tags">
+                            <span>RAG</span>
+                            <span>LangChain</span>
+                            <span>FAISS</span>
+                            <span>Agents</span>
+                            <span>FastAPI</span>
+                            <span>LLM Evaluation</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/csequenc"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Code ↗
+                            </a>
+                        </div>
+                    </div>
+
+                </article>
+
+            </div>
+        </section>
+
+
+
+        <section class="section philosophy">
+            <div class="section-container">
+
+                <div class="quote-mark">“</div>
+
+                <blockquote>
+                    An improvement that disappears when you change
+                    the seed is not necessarily an improvement.
+                </blockquote>
+
+                <p>
+                    I care about reproducibility, controlled comparisons,
+                    and being willing to document results that don't support
+                    the original hypothesis.
+                </p>
+
+            </div>
+        </section>
+
+
+
+        <section class="section skills" id="skills">
+            <div class="section-container">
+
+                <div class="section-label">
+                    <span>03</span>
+                    TOOLKIT
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-category">
+                        <span class="skill-index">01</span>
+                        <h3>AI / ML</h3>
+
+                        <div class="skill-list">
+                            <span>RAG</span>
+                            <span>LLMs</span>
+                            <span>Embeddings</span>
+                            <span>Vector Retrieval</span>
+                            <span>LLM Evaluation</span>
+                            <span>Tool Calling</span>
+                            <span>LoRA</span>
+                            <span>DoRA</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <span class="skill-index">02</span>
+                        <h3>Frameworks</h3>
+
+                        <div class="skill-list">
+                            <span>PyTorch</span>
+                            <span>Transformers</span>
+                            <span>PEFT</span>
+                            <span>LangChain</span>
+                            <span>SentenceTransformers</span>
+                            <span>FAISS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <span class="skill-index">03</span>
+                        <h3>Engineering</h3>
+
+                        <div class="skill-list">
+                            <span>Python</span>
+                            <span>C++</span>
+                            <span>FastAPI</span>
+                            <span>REST APIs</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Groq API</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="section contact" id="contact">
+            <div class="section-container">
+
+                <div class="section-label">
+                    <span>04</span>
+                    CONTACT
+                </div>
+
+                <div class="contact-content">
+                    <p class="eyebrow">LET'S CONNECT</p>
+
+                    <h2>
+                        Interested in AI,
+                        <span>experiments, or both?</span>
+                    </h2>
+
+                    <p>
+                        I'm always interested in discussing AI systems,
+                        empirical evaluation, research ideas, and interesting
+                        problems worth investigating.
+                    </p>
+
+                    <a
+                        href="mailto:ishaan.maheshwari.07@gmail.com"
+                        class="email-link"
+                    >
+                        ishaan.maheshwari.07@gmail.com ↗
+                    </a>
+
+                    <div class="contact-links">
+                        <a
+                            href="https://github.com/csequenc"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/maheshwari-ishaan"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <footer>
+        <div class="footer-container">
+            <span>© <span id="year"></span> Ishaan Maheshwari</span>
+            <span>Built with curiosity.</span>
+        </div>
+    </footer>
+
+</body>
+</html>
