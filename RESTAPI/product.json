@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Dell XPS 13",
+    "price": 89999,
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "iPhone 15 Pro",
+    "price": 129999,
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Sony Headphones",
+    "price": 12999,
+    "category": "Electronics"
+  },
+  {
+    "id": 4,
+    "name": "Samsung 4K TV 55 inch",
+    "price": 45999,
+    "category": "Electronics"
+  },
+  {
+    "id": 5,
+    "name": "iPad Air",
+    "price": 54999,
+    "category": "Electronics"
+  },
+  {
+    "id": 6,
+    "name": "Nike Running Shoes",
+    "price": 7999,
+    "category": "Fashion"
+  },
+  {
+    "id": 7,
+    "name": "Adidas Sports T-Shirt",
+    "price": 1999,
+    "category": "Fashion"
+  },
+  {
+    "id": 8,
+    "name": "Levi's Jeans",
+    "price": 3999,
+    "category": "Fashion"
+  },
+  {
+    "id": 9,
+    "name": "Puma Casual Shoes",
+    "price": 5999,
+    "category": "Fashion"
+  },
+  {
+    "id": 10,
+    "name": "Leather Jacket",
+    "price": 8999,
+    "category": "Fashion"
+  },
+  {
+    "id": 11,
+    "name": "Wooden Dining Table",
+    "price": 24999,
+    "category": "Furniture"
+  },
+  {
+    "id": 12,
+    "name": "Office Chair",
+    "price": 9999,
+    "category": "Furniture"
+  },
+  {
+    "id": 13,
+    "name": "King Size Bed",
+    "price": 34999,
+    "category": "Furniture"
+  },
+  {
+    "id": 14,
+    "name": "Bookshelf",
+    "price": 4999,
+    "category": "Furniture"
+  },
+  {
+    "id": 15,
+    "name": "Coffee Table",
+    "price": 6999,
+    "category": "Furniture"
+  },
+  {
+    "id": 16,
+    "name": "Harry Potter Book Set",
+    "price": 2999,
+    "category": "Books"
+  },
+  {
+    "id": 17,
+    "name": "Java Programming Guide",
+    "price": 1499,
+    "category": "Books"
+  },
+  {
+    "id": 18,
+    "name": "The Alchemist",
+    "price": 399,
+    "category": "Books"
+  },
+  {
+    "id": 19,
+    "name": "Python for Data Science",
+    "price": 1799,
+    "category": "Books"
+  },
+  {
+    "id": 20,
+    "name": "Web Development Basics",
+    "price": 1299,
+    "category": "Books"
+  },
+  {
+    "id": 21,
+    "name": "Blender Software License",
+    "price": 14999,
+    "category": "Software"
+  },
+  {
+    "id": 22,
+    "name": "Microsoft Office 365",
+    "price": 5999,
+    "category": "Software"
+  },
+  {
+    "id": 23,
+    "name": "Adobe Creative Cloud",
+    "price": 54999,
+    "category": "Software"
+  },
+  {
+    "id": 24,
+    "name": "Visual Studio Code",
+    "price": 0,
+    "category": "Software"
+  },
+  {
+    "id": 25,
+    "name": "Sublime Text License",
+    "price": 4099,
+    "category": "Software"
+  },
+  {
+    "id": 26,
+    "name": "Stainless Steel Water Bottle",
+    "price": 799,
+    "category": "Home"
+  },
+  {
+    "id": 27,
+    "name": "Coffee Maker",
+    "price": 2999,
+    "category": "Home"
+  },
+  {
+    "id": 28,
+    "name": "LED Bulbs 10W",
+    "price": 299,
+    "category": "Home"
+  },
+  {
+    "id": 29,
+    "name": "Air Purifier",
+    "price": 8999,
+    "category": "Home"
+  },
+  {
+    "id": 30,
+    "name": "Microwave Oven",
+    "price": 6999,
+    "category": "Home"
+  },
+  {
+    "id": 31,
+    "name": "Basketball",
+    "price": 1299,
+    "category": "Sports"
+  },
+  {
+    "id": 32,
+    "name": "Yoga Mat",
+    "price": 999,
+    "category": "Sports"
+  },
+  {
+    "id": 33,
+    "name": "Dumbbells Set 20kg",
+    "price": 3999,
+    "category": "Sports"
+  },
+  {
+    "id": 34,
+    "name": "Tennis Racket",
+    "price": 4999,
+    "category": "Sports"
+  },
+  {
+    "id": 35,
+    "name": "Cricket Bat",
+    "price": 2499,
+    "category": "Sports"
+  },
+  {
+    "id": 36,
+    "name": "Digital Camera",
+    "price": 32999,
+    "category": "Electronics"
+  },
+  {
+    "id": 37,
+    "name": "Webcam HD",
+    "price": 3999,
+    "category": "Electronics"
+  },
+  {
+    "id": 38,
+    "name": "USB Hub 7 Port",
+    "price": 1599,
+    "category": "Electronics"
+  },
+  {
+    "id": 39,
+    "name": "SSD 1TB",
+    "price": 6999,
+    "category": "Electronics"
+  },
+  {
+    "id": 40,
+    "name": "RAM DDR4 16GB",
+    "price": 4999,
+    "category": "Electronics"
+  },
+  {
+    "id": 41,
+    "name": "Winter Jacket",
+    "price": 5999,
+    "category": "Fashion"
+  },
+  {
+    "id": 42,
+    "name": "Formal Shirt",
+    "price": 1999,
+    "category": "Fashion"
+  },
+  {
+    "id": 43,
+    "name": "Summer Dress",
+    "price": 2999,
+    "category": "Fashion"
+  },
+  {
+    "id": 44,
+    "name": "Casual Shorts",
+    "price": 1499,
+    "category": "Fashion"
+  },
+  {
+    "id": 45,
+    "name": "Cotton Socks Pack",
+    "price": 499,
+    "category": "Fashion"
+  },
+  {
+    "id": 46,
+    "name": "Glass Dining Set",
+    "price": 18999,
+    "category": "Furniture"
+  },
+  {
+    "id": 47,
+    "name": "Reclining Chair",
+    "price": 12999,
+    "category": "Furniture"
+  },
+  {
+    "id": 48,
+    "name": "Wardrobe",
+    "price": 22999,
+    "category": "Furniture"
+  },
+  {
+    "id": 49,
+    "name": "Study Desk",
+    "price": 7999,
+    "category": "Furniture"
+  },
+  {
+    "id": 50,
+    "name": "Storage Cabinet",
+    "price": 5999,
+    "category": "Furniture"
+  },
+  {
+    "id": 51,
+    "name": "Science Fiction Novel",
+    "price": 549,
+    "category": "Books"
+  },
+  {
+    "id": 52,
+    "name": "History Book",
+    "price": 799,
+    "category": "Books"
+  },
+  {
+    "id": 53,
+    "name": "Self Help Book",
+    "price": 399,
+    "category": "Books"
+  },
+  {
+    "id": 54,
+    "name": "Travel Guide",
+    "price": 899,
+    "category": "Books"
+  },
+  {
+    "id": 55,
+    "name": "Cooking Recipe Book",
+    "price": 649,
+    "category": "Books"
+  },
+  {
+    "id": 56,
+    "name": "IDE PyCharm Professional",
+    "price": 12999,
+    "category": "Software"
+  },
+  {
+    "id": 57,
+    "name": "Git Version Control",
+    "price": 0,
+    "category": "Software"
+  },
+  {
+    "id": 58,
+    "name": "Docker License",
+    "price": 3999,
+    "category": "Software"
+  },
+  {
+    "id": 59,
+    "name": "Jira Software License",
+    "price": 7999,
+    "category": "Software"
+  },
+  {
+    "id": 60,
+    "name": "VPN Software",
+    "price": 2999,
+    "category": "Software"
+  },
+  {
+    "id": 61,
+    "name": "Bed Sheets Cotton",
+    "price": 1999,
+    "category": "Home"
+  },
+  {
+    "id": 62,
+    "name": "Pillow Set",
+    "price": 2499,
+    "category": "Home"
+  },
+  {
+    "id": 63,
+    "name": "Vacuum Cleaner",
+    "price": 8999,
+    "category": "Home"
+  },
+  {
+    "id": 64,
+    "name": "Iron Machine",
+    "price": 1999,
+    "category": "Home"
+  },
+  {
+    "id": 65,
+    "name": "Washing Machine",
+    "price": 24999,
+    "category": "Home"
+  },
+  {
+    "id": 66,
+    "name": "Football",
+    "price": 1499,
+    "category": "Sports"
+  },
+  {
+    "id": 67,
+    "name": "Badminton Racket",
+    "price": 2499,
+    "category": "Sports"
+  },
+  {
+    "id": 68,
+    "name": "Gym Bench",
+    "price": 5999,
+    "category": "Sports"
+  },
+  {
+    "id": 69,
+    "name": "Skipping Rope",
+    "price": 499,
+    "category": "Sports"
+  },
+  {
+    "id": 70,
+    "name": "Push-up Board",
+    "price": 1299,
+    "category": "Sports"
+  },
+  {
+    "id": 71,
+    "name": "Gaming Monitor 27 inch",
+    "price": 18999,
+    "category": "Electronics"
+  },
+  {
+    "id": 72,
+    "name": "Mechanical Keyboard",
+    "price": 4999,
+    "category": "Electronics"
+  },
+  {
+    "id": 73,
+    "name": "Gaming Mouse",
+    "price": 2999,
+    "category": "Electronics"
+  },
+  {
+    "id": 74,
+    "name": "Mouse Pad XL",
+    "price": 1299,
+    "category": "Electronics"
+  },
+  {
+    "id": 75,
+    "name": "USB Cable 2M",
+    "price": 299,
+    "category": "Electronics"
+  },
+  {
+    "id": 76,
+    "name": "Sweater",
+    "price": 2499,
+    "category": "Fashion"
+  },
+  {
+    "id": 77,
+    "name": "Cap",
+    "price": 799,
+    "category": "Fashion"
+  },
+  {
+    "id": 78,
+    "name": "Scarf",
+    "price": 999,
+    "category": "Fashion"
+  },
+  {
+    "id": 79,
+    "name": "Gloves",
+    "price": 699,
+    "category": "Fashion"
+  },
+  {
+    "id": 80,
+    "name": "Formal Shoes",
+    "price": 4999,
+    "category": "Fashion"
+  },
+  {
+    "id": 81,
+    "name": "Sofa Set 3 Seater",
+    "price": 32999,
+    "category": "Furniture"
+  },
+  {
+    "id": 82,
+    "name": "TV Stand",
+    "price": 3999,
+    "category": "Furniture"
+  },
+  {
+    "id": 83,
+    "name": "Side Table",
+    "price": 2999,
+    "category": "Furniture"
+  },
+  {
+    "id": 84,
+    "name": "Wall Shelves",
+    "price": 1999,
+    "category": "Furniture"
+  },
+  {
+    "id": 85,
+    "name": "Mirror",
+    "price": 2499,
+    "category": "Furniture"
+  },
+  {
+    "id": 86,
+    "name": "Business Book",
+    "price": 749,
+    "category": "Books"
+  },
+  {
+    "id": 87,
+    "name": "Fantasy Novel",
+    "price": 599,
+    "category": "Books"
+  },
+  {
+    "id": 88,
+    "name": "Biography",
+    "price": 649,
+    "category": "Books"
+  },
+  {
+    "id": 89,
+    "name": "Motivational Book",
+    "price": 449,
+    "category": "Books"
+  },
+  {
+    "id": 90,
+    "name": "Technical Journal",
+    "price": 1299,
+    "category": "Books"
+  },
+  {
+    "id": 91,
+    "name": "Antivirus Software",
+    "price": 1999,
+    "category": "Software"
+  },
+  {
+    "id": 92,
+    "name": "Database Software",
+    "price": 24999,
+    "category": "Software"
+  },
+  {
+    "id": 93,
+    "name": "Automation Tool",
+    "price": 5999,
+    "category": "Software"
+  },
+  {
+    "id": 94,
+    "name": "API Testing Tool",
+    "price": 3999,
+    "category": "Software"
+  },
+  {
+    "id": 95,
+    "name": "Cloud Storage Service",
+    "price": 2999,
+    "category": "Software"
+  },
+  {
+    "id": 96,
+    "name": "Kitchen Trolley",
+    "price": 3999,
+    "category": "Home"
+  },
+  {
+    "id": 97,
+    "name": "Door Mat",
+    "price": 499,
+    "category": "Home"
+  },
+  {
+    "id": 98,
+    "name": "Curtains",
+    "price": 2999,
+    "category": "Home"
+  },
+  {
+    "id": 99,
+    "name": "Decorative Lights",
+    "price": 1999,
+    "category": "Home"
+  },
+  {
+    "id": 100,
+    "name": "Picture Frame Set",
+    "price": 1499,
+    "category": "Home"
+  }
+]
