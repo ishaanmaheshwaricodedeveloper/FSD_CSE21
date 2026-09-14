@@ -1,30 +1,9 @@
 import express from "express";
+import products from "./product.json" with { type: "json" };
 
 const app = express();
 
 app.use(express.json());
-
-let products = [
-    {
-        id: 1,
-        name: "Laptop",
-        price: 50000,
-        category: "Electronics"
-    },
-    {
-        id: 2,
-        name: "Mobile",
-        price: 20000,
-        category: "Electronics"
-    },
-    {
-        id: 3,
-        name: "Shoes",
-        price: 3000,
-        category: "Fashion"
-    }
-];
-
 
 app.get("/products", (req, res) => {
     res.status(200).json(products);
