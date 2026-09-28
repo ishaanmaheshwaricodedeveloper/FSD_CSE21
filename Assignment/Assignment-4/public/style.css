@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    background:
+        linear-gradient(rgba(25, 30, 22, 0.88), rgba(25, 30, 22, 0.88)),
+        repeating-linear-gradient(
+            45deg,
+            #3b4433 0px,
+            #3b4433 2px,
+            #343c2e 2px,
+            #343c2e 5px
+        );
+
+    color: #dfe3d2;
+    min-height: 100vh;
+}
+
+/* Main command center */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+
+    padding: 35px;
+
+    background: #20251d;
+
+    border: 2px solid #687353;
+    border-radius: 8px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.45),
+        inset 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+
+h1 {
+    margin: 0;
+
+    text-align: center;
+
+    color: #d5d9b8;
+
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    border-bottom: 2px solid #687353;
+    padding-bottom: 15px;
+}
+
+h1::before {
+    content: "◈  ";
+    color: #a7b36c;
+}
+
+h1::after {
+    content: "  ◈";
+    color: #a7b36c;
+}
+
+/* Tactical subtitle */
+
+h1 + form::before {
+    content: "CAMPUS SUPPORT OPERATIONS  //  REQUEST INTAKE";
+
+    display: block;
+
+    text-align: center;
+
+    color: #8f9b70;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+}
+
+/* Section */
+
+h2 {
+    margin-top: 35px;
+
+    color: #c5cc9d;
+
+    font-size: 22px;
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    border-left: 5px solid #89965e;
+    padding-left: 12px;
+}
+
+h2::before {
+    content: "[ ";
+    color: #89965e;
+}
+
+h2::after {
+    content: " ]";
+    color: #89965e;
+}
+
+/* Form */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    padding: 25px;
+
+    background: #292f25;
+
+    border: 1px solid #586247;
+    border-radius: 5px;
+}
+
+/* Inputs */
+
+input,
+select,
+textarea {
+    width: 100%;
+
+    padding: 13px 14px;
+
+    background: #171b16;
+
+    color: #dfe3d2;
+
+    border: 1px solid #586247;
+    border-radius: 3px;
+
+    font-family: inherit;
+    font-size: 15px;
+
+    transition: 0.2s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #7d8570;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+
+    border-color: #a2b16c;
+
+    box-shadow:
+        0 0 0 2px rgba(162, 177, 108, 0.15);
+}
+
+textarea {
+    min-height: 115px;
+    resize: vertical;
+}
+
+/* Submit */
+
+form button {
+    padding: 13px;
+
+    background: #737f4e;
+
+    color: #10140e;
+
+    border: 1px solid #a3b06c;
+    border-radius: 3px;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+form button::before {
+    content: "▶  ";
+}
+
+form button:hover {
+    background: #a0ad68;
+
+    box-shadow:
+        0 0 15px rgba(160, 173, 104, 0.2);
+
+    transform: translateY(-1px);
+}
+
+/* Request cards */
+
+.request {
+    position: relative;
+
+    margin-top: 15px;
+    padding: 21px;
+
+    background: #292f25;
+
+    border: 1px solid #586247;
+    border-left: 5px solid #7d8958;
+
+    border-radius: 4px;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.25);
+
+    transition: 0.2s ease;
+}
+
+.request:hover {
+    border-left-color: #a8b66e;
+
+    background: #2d3428;
+
+    transform: translateX(3px);
+}
+
+/* Classification marker */
+
+.request::before {
+    content: "REQUEST LOG";
+
+    position: absolute;
+
+    top: 12px;
+    right: 15px;
+
+    color: #737e62;
+
+    font-size: 9px;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+}
+
+.request h3 {
+    margin-top: 0;
+
+    color: #c7cf9c;
+
+    font-size: 19px;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.request p {
+    margin: 8px 0;
+
+    color: #b8beaa;
+
+    line-height: 1.5;
+}
+
+.request strong {
+    color: #d9ddc8;
+}
+
+/* Buttons */
+
+.request button {
+    padding: 8px 14px;
+
+    margin-top: 12px;
+    margin-right: 7px;
+
+    border-radius: 3px;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+/* Edit */
+
+.request button:first-of-type {
+    background: #4d5840;
+
+    color: #d7ddbd;
+
+    border: 1px solid #73805a;
+}
+
+.request button:first-of-type:hover {
+    background: #66734d;
+}
+
+/* Delete */
+
+.request button:last-of-type {
+    background: #4b302d;
+
+    color: #e0aaa2;
+
+    border: 1px solid #80534d;
+}
+
+.request button:last-of-type:hover {
+    background: #673d38;
+}
+
+/* Empty state */
+
+#requestsContainer > p {
+    padding: 25px;
+
+    text-align: center;
+
+    background: #292f25;
+
+    border: 1px dashed #657050;
+    border-radius: 4px;
+
+    color: #89927b;
+
+    letter-spacing: 1px;
+}
+
+#requestsContainer > p::before {
+    content: "◉  STATUS: ";
+    color: #a4b06d;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 94%;
+        margin: 20px auto;
+        padding: 22px;
+    }
+
+    h1 {
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+
+    form {
+        padding: 18px;
+    }
+
+    h1 + form::before {
+        font-size: 9px;
+    }
+}
