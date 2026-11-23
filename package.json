@@ -1,0 +1,24 @@
+{
+  "name": "backend_cse_21",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitmlzs15-code/FSD_CSE21.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/harshitmlzs15-code/FSD_CSE21/issues"
+  },
+  "homepage": "https://github.com/harshitmlzs15-code/FSD_CSE21#readme",
+  "dependencies": {
+    "@types/node": "^26.2.0"
+  }
+}
