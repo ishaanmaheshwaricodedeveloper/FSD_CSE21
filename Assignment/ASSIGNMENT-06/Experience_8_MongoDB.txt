@@ -1,0 +1,39 @@
+EXPERIENCE 8: CRUD OPERATIONS ON studentDB.students
+
+Aim:
+Perform insertion, retrieval, updation, and deletion operations on the studentDB.students collection.
+
+1. Insert 6 student records:
+
+use studentDB
+
+db.students.insertMany([
+  { rollno: 101, name: "Ishaan", age: 19, branch: "CSE", marks: 85 },
+  { rollno: 102, name: "Harshit", age: 20, branch: "CSE", marks: 90 },
+  { rollno: 103, name: "Tanya", age: 19, branch: "IT", marks: 78 },
+  { rollno: 104, name: "Jagriti", age: 20, branch: "ECE", marks: 88 },
+  { rollno: 105, name: "Kashish", age: 19, branch: "CSE", marks: 82 },
+  { rollno: 106, name: "Hirdyansh", age: 21, branch: "IT", marks: 92 }
+])
+
+2. Find all students older than 20:
+
+db.students.find({ age: { $gt: 20 } })
+
+3. Update a student's age using $set:
+
+db.students.updateOne(
+  { name: "Harshit" },
+  { $set: { age: 21 } }
+)
+
+4. Delete one student:
+
+db.students.deleteOne({ name: "Tanya" })
+
+5. Display all student records:
+
+db.students.find()
+
+Result:
+Student records are inserted successfully. Students older than 20 are retrieved, Harshit's age is updated using $set, one student record is deleted, and the remaining records are displayed.

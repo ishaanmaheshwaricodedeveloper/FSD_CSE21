@@ -1,0 +1,24 @@
+EXPERIENCE 7: INSTALL MONGODB AND CREATE DATABASE & COLLECTION
+
+Aim:
+Install MongoDB locally (or use MongoDB Atlas), create a database named studentDB and a collection named students, and insert sample data into the collection.
+
+Commands:
+
+use studentDB
+
+ db.createCollection("students")
+
+ db.students.insertMany([
+   { rollno: 201, name: "Aarav", age: 19, branch: "CSE", marks: 81 },
+   { rollno: 202, name: "Diya", age: 20, branch: "IT", marks: 86 },
+   { rollno: 203, name: "Kabir", age: 21, branch: "ECE", marks: 79 }
+ ])
+
+ db.students.find()
+ show collections
+
+ db
+
+Result:
+The studentDB database and students collection are created, and three sample student documents are inserted and displayed successfully.

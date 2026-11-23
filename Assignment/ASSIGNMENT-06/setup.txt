@@ -1,0 +1,15 @@
+uploadFile (folder name) //Multer API (to upload the file)
+1. server.js
+2. package.json(npm init) 
+package_lock.json(npm i express multer)
+4. public folder
+    a. index.html
+    b. css.style
+    c. js.script
+5. upload folder
+#include<iostream>
+using namespace std 
+int main(){
+    
+}
+

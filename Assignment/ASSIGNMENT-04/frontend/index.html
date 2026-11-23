@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Requests</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div>
+            <p class="tag">CAMPUS SERVICES</p>
+            <h1>Campus Requests<span>.</span></h1>
+            <p class="subtitle">
+                Submit and manage your campus-related problems and requests.
+            </p>
+        </div>
+
+        <div class="status">
+            <span></span>
+            SYSTEM ONLINE
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+        <!-- FORM -->
+
+        <section class="form-section">
+
+            <div class="section-heading">
+                <p>01</p>
+                <h2>Submit a Request</h2>
+            </div>
+
+            <form id="requestForm">
+
+                <input type="hidden" id="requestId">
+
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+
+                        <label for="studentName">
+                            Student Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="studentName"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="student@example.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="category">
+                            Category
+                        </label>
+
+                        <select id="category" required>
+
+                            <option value="">
+                                Select category
+                            </option>
+
+                            <option value="Academic">
+                                Academic
+                            </option>
+
+                            <option value="Hostel">
+                                Hostel
+                            </option>
+
+                            <option value="Infrastructure">
+                                Infrastructure
+                            </option>
+
+                            <option value="Library">
+                                Library
+                            </option>
+
+                            <option value="Canteen">
+                                Canteen
+                            </option>
+
+                            <option value="Transport">
+                                Transport
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="priority">
+                            Priority
+                        </label>
+
+                        <select id="priority" required>
+
+                            <option value="">
+                                Select priority
+                            </option>
+
+                            <option value="Low">
+                                Low
+                            </option>
+
+                            <option value="Medium">
+                                Medium
+                            </option>
+
+                            <option value="High">
+                                High
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="description">
+                        Problem Description
+                    </label>
+
+                    <textarea
+                        id="description"
+                        rows="5"
+                        placeholder="Describe your problem or request..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <div class="form-actions">
+
+                    <button
+                        type="submit"
+                        id="submitButton"
+                        class="primary-btn"
+                    >
+                        SUBMIT REQUEST
+                    </button>
+
+                    <button
+                        type="button"
+                        id="cancelButton"
+                        class="cancel-btn"
+                    >
+                        CANCEL
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+
+        <!-- REQUESTS -->
+
+        <section class="requests-section">
+
+            <div class="section-heading">
+
+                <p>02</p>
+
+                <div>
+                    <h2>Submitted Requests</h2>
+                    <span id="requestCount">0 requests</span>
+                </div>
+
+            </div>
+
+
+            <div id="requestList">
+
+                <!-- Requests will appear here -->
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            ASSIGNMENT-04
+        </p>
+
+        <p>
+            Campus Request Management System
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

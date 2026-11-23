@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "studentName": "ishuuu",
+    "email": "harshitmlzs15@gmail.com",
+    "category": "Academic",
+    "description": "ma'aam bann gyaa, credit goes to ChatGPT",
+    "priority": "High"
+  },
+  {
+    "id": 2,
+    "studentName": "ishuuu",
+    "email": "harshitmlzs15@gmail.com",
+    "category": "Academic",
+    "description": "sadfghj./",
+    "priority": "Low"
+  }
+]
