@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop 1",
+    "price": 48035,
+    "category": "Electronics"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone 1",
+    "price": 24155,
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Wireless Mouse 1",
+    "price": 1475,
+    "category": "Electronics"
+  },
+  {
+    "id": 4,
+    "name": "Mechanical Keyboard 1",
+    "price": 2995,
+    "category": "Electronics"
+  },
+  {
+    "id": 5,
+    "name": "USB Cable 1",
+    "price": 865,
+    "category": "Electronics"
+  },
+  {
+    "id": 6,
+    "name": "Bluetooth Speaker 1",
+    "price": 3835,
+    "category": "Electronics"
+  },
+  {
+    "id": 7,
+    "name": "T-Shirt 1",
+    "price": 1654,
+    "category": "Fashion"
+  },
+  {
+    "id": 8,
+    "name": "Running Shoes 1",
+    "price": 3034,
+    "category": "Fashion"
+  },
+  {
+    "id": 9,
+    "name": "Backpack 1",
+    "price": 1754,
+    "category": "Fashion"
+  },
+  {
+    "id": 10,
+    "name": "Sunglasses 1",
+    "price": 1774,
+    "category": "Fashion"
+  },
+  {
+    "id": 11,
+    "name": "Classic Watch 1",
+    "price": 3894,
+    "category": "Fashion"
+  },
+  {
+    "id": 12,
+    "name": "Dining Set 1",
+    "price": 7414,
+    "category": "Home"
+  },
+  {
+    "id": 13,
+    "name": "Throw Blanket 1",
+    "price": 2834,
+    "category": "Home"
+  },
+  {
+    "id": 14,
+    "name": "Table Lamp 1",
+    "price": 2654,
+    "category": "Home"
+  },
+  {
+    "id": 15,
+    "name": "Water Bottle 1",
+    "price": 834,
+    "category": "Home"
+  },
+  {
+    "id": 16,
+    "name": "Coffee Maker 1",
+    "price": 4754,
+    "category": "Home"
+  },
+  {
+    "id": 17,
+    "name": "Rice 1",
+    "price": 395,
+    "category": "Groceries"
+  },
+  {
+    "id": 18,
+    "name": "Milk 1",
+    "price": 460,
+    "category": "Groceries"
+  },
+  {
+    "id": 19,
+    "name": "Whole Wheat Bread 1",
+    "price": 605,
+    "category": "Groceries"
+  },
+  {
+    "id": 20,
+    "name": "Apples 1",
+    "price": 815,
+    "category": "Groceries"
+  },
+  {
+    "id": 21,
+    "name": "Green Tea 1",
+    "price": 975,
+    "category": "Groceries"
+  },
+  {
+    "id": 22,
+    "name": "Fiction Novel 1",
+    "price": 434,
+    "category": "Books"
+  },
+  {
+    "id": 23,
+    "name": "Notebook 1",
+    "price": 335,
+    "category": "Books"
+  },
+  {
+    "id": 24,
+    "name": "Study Journal 1",
+    "price": 535,
+    "category": "Books"
+  },
+  {
+    "id": 25,
+    "name": "Gym Mat 1",
+    "price": 2894,
+    "category": "Sports"
+  },
+  {
+    "id": 26,
+    "name": "Yoga Mat 1",
+    "price": 2114,
+    "category": "Sports"
+  },
+  {
+    "id": 27,
+    "name": "Sports Bottle 1",
+    "price": 1385,
+    "category": "Sports"
+  },
+  {
+    "id": 28,
+    "name": "Shampoo 1",
+    "price": 1175,
+    "category": "Beauty"
+  },
+  {
+    "id": 29,
+    "name": "Face Cream 1",
+    "price": 655,
+    "category": "Beauty"
+  },
+  {
+    "id": 30,
+    "name": "Lip Balm 1",
+    "price": 335,
+    "category": "Beauty"
+  },
+  {
+    "id": 31,
+    "name": "Desk Organizer 1",
+    "price": 1265,
+    "category": "Office"
+  },
+  {
+    "id": 32,
+    "name": "Printer Paper 1",
+    "price": 955,
+    "category": "Office"
+  },
+  {
+    "id": 33,
+    "name": "Pen Set 1",
+    "price": 905,
+    "category": "Office"
+  },
+  {
+    "id": 34,
+    "name": "Laptop 2",
+    "price": 48670,
+    "category": "Electronics"
+  },
+  {
+    "id": 35,
+    "name": "Smartphone 2",
+    "price": 24790,
+    "category": "Electronics"
+  },
+  {
+    "id": 36,
+    "name": "Wireless Mouse 2",
+    "price": 1270,
+    "category": "Electronics"
+  },
+  {
+    "id": 37,
+    "name": "Mechanical Keyboard 2",
+    "price": 2790,
+    "category": "Electronics"
+  },
+  {
+    "id": 38,
+    "name": "USB Cable 2",
+    "price": 660,
+    "category": "Electronics"
+  },
+  {
+    "id": 39,
+    "name": "Bluetooth Speaker 2",
+    "price": 3630,
+    "category": "Electronics"
+  },
+  {
+    "id": 40,
+    "name": "T-Shirt 2",
+    "price": 1449,
+    "category": "Fashion"
+  },
+  {
+    "id": 41,
+    "name": "Running Shoes 2",
+    "price": 3669,
+    "category": "Fashion"
+  },
+  {
+    "id": 42,
+    "name": "Backpack 2",
+    "price": 2389,
+    "category": "Fashion"
+  },
+  {
+    "id": 43,
+    "name": "Sunglasses 2",
+    "price": 1569,
+    "category": "Fashion"
+  },
+  {
+    "id": 44,
+    "name": "Classic Watch 2",
+    "price": 3689,
+    "category": "Fashion"
+  },
+  {
+    "id": 45,
+    "name": "Dining Set 2",
+    "price": 7209,
+    "category": "Home"
+  },
+  {
+    "id": 46,
+    "name": "Throw Blanket 2",
+    "price": 2629,
+    "category": "Home"
+  },
+  {
+    "id": 47,
+    "name": "Table Lamp 2",
+    "price": 2449,
+    "category": "Home"
+  },
+  {
+    "id": 48,
+    "name": "Water Bottle 2",
+    "price": 1469,
+    "category": "Home"
+  },
+  {
+    "id": 49,
+    "name": "Coffee Maker 2",
+    "price": 5389,
+    "category": "Home"
+  },
+  {
+    "id": 50,
+    "name": "Rice 2",
+    "price": 190,
+    "category": "Groceries"
+  },
+  {
+    "id": 51,
+    "name": "Milk 2",
+    "price": 255,
+    "category": "Groceries"
+  },
+  {
+    "id": 52,
+    "name": "Whole Wheat Bread 2",
+    "price": 400,
+    "category": "Groceries"
+  },
+  {
+    "id": 53,
+    "name": "Apples 2",
+    "price": 610,
+    "category": "Groceries"
+  },
+  {
+    "id": 54,
+    "name": "Green Tea 2",
+    "price": 770,
+    "category": "Groceries"
+  },
+  {
+    "id": 55,
+    "name": "Fiction Novel 2",
+    "price": 1069,
+    "category": "Books"
+  },
+  {
+    "id": 56,
+    "name": "Notebook 2",
+    "price": 970,
+    "category": "Books"
+  },
+  {
+    "id": 57,
+    "name": "Study Journal 2",
+    "price": 330,
+    "category": "Books"
+  },
+  {
+    "id": 58,
+    "name": "Gym Mat 2",
+    "price": 2689,
+    "category": "Sports"
+  },
+  {
+    "id": 59,
+    "name": "Yoga Mat 2",
+    "price": 1909,
+    "category": "Sports"
+  },
+  {
+    "id": 60,
+    "name": "Sports Bottle 2",
+    "price": 1180,
+    "category": "Sports"
+  },
+  {
+    "id": 61,
+    "name": "Shampoo 2",
+    "price": 970,
+    "category": "Beauty"
+  },
+  {
+    "id": 62,
+    "name": "Face Cream 2",
+    "price": 1290,
+    "category": "Beauty"
+  },
+  {
+    "id": 63,
+    "name": "Lip Balm 2",
+    "price": 970,
+    "category": "Beauty"
+  },
+  {
+    "id": 64,
+    "name": "Desk Organizer 2",
+    "price": 1060,
+    "category": "Office"
+  },
+  {
+    "id": 65,
+    "name": "Printer Paper 2",
+    "price": 750,
+    "category": "Office"
+  },
+  {
+    "id": 66,
+    "name": "Pen Set 2",
+    "price": 700,
+    "category": "Office"
+  },
+  {
+    "id": 67,
+    "name": "Laptop 3",
+    "price": 48465,
+    "category": "Electronics"
+  },
+  {
+    "id": 68,
+    "name": "Smartphone 3",
+    "price": 24585,
+    "category": "Electronics"
+  },
+  {
+    "id": 69,
+    "name": "Wireless Mouse 3",
+    "price": 1905,
+    "category": "Electronics"
+  },
+  {
+    "id": 70,
+    "name": "Mechanical Keyboard 3",
+    "price": 3425,
+    "category": "Electronics"
+  },
+  {
+    "id": 71,
+    "name": "USB Cable 3",
+    "price": 455,
+    "category": "Electronics"
+  },
+  {
+    "id": 72,
+    "name": "Bluetooth Speaker 3",
+    "price": 3425,
+    "category": "Electronics"
+  },
+  {
+    "id": 73,
+    "name": "T-Shirt 3",
+    "price": 1244,
+    "category": "Fashion"
+  },
+  {
+    "id": 74,
+    "name": "Running Shoes 3",
+    "price": 3464,
+    "category": "Fashion"
+  },
+  {
+    "id": 75,
+    "name": "Backpack 3",
+    "price": 2184,
+    "category": "Fashion"
+  },
+  {
+    "id": 76,
+    "name": "Sunglasses 3",
+    "price": 2204,
+    "category": "Fashion"
+  },
+  {
+    "id": 77,
+    "name": "Classic Watch 3",
+    "price": 4324,
+    "category": "Fashion"
+  },
+  {
+    "id": 78,
+    "name": "Dining Set 3",
+    "price": 7004,
+    "category": "Home"
+  },
+  {
+    "id": 79,
+    "name": "Throw Blanket 3",
+    "price": 2424,
+    "category": "Home"
+  },
+  {
+    "id": 80,
+    "name": "Table Lamp 3",
+    "price": 2244,
+    "category": "Home"
+  },
+  {
+    "id": 81,
+    "name": "Water Bottle 3",
+    "price": 1264,
+    "category": "Home"
+  },
+  {
+    "id": 82,
+    "name": "Coffee Maker 3",
+    "price": 5184,
+    "category": "Home"
+  },
+  {
+    "id": 83,
+    "name": "Rice 3",
+    "price": 825,
+    "category": "Groceries"
+  },
+  {
+    "id": 84,
+    "name": "Milk 3",
+    "price": 890,
+    "category": "Groceries"
+  },
+  {
+    "id": 85,
+    "name": "Whole Wheat Bread 3",
+    "price": 195,
+    "category": "Groceries"
+  },
+  {
+    "id": 86,
+    "name": "Apples 3",
+    "price": 405,
+    "category": "Groceries"
+  },
+  {
+    "id": 87,
+    "name": "Green Tea 3",
+    "price": 565,
+    "category": "Groceries"
+  },
+  {
+    "id": 88,
+    "name": "Fiction Novel 3",
+    "price": 864,
+    "category": "Books"
+  },
+  {
+    "id": 89,
+    "name": "Notebook 3",
+    "price": 765,
+    "category": "Books"
+  },
+  {
+    "id": 90,
+    "name": "Study Journal 3",
+    "price": 965,
+    "category": "Books"
+  },
+  {
+    "id": 91,
+    "name": "Gym Mat 3",
+    "price": 3324,
+    "category": "Sports"
+  },
+  {
+    "id": 92,
+    "name": "Yoga Mat 3",
+    "price": 1704,
+    "category": "Sports"
+  },
+  {
+    "id": 93,
+    "name": "Sports Bottle 3",
+    "price": 975,
+    "category": "Sports"
+  },
+  {
+    "id": 94,
+    "name": "Shampoo 3",
+    "price": 765,
+    "category": "Beauty"
+  },
+  {
+    "id": 95,
+    "name": "Face Cream 3",
+    "price": 1085,
+    "category": "Beauty"
+  },
+  {
+    "id": 96,
+    "name": "Lip Balm 3",
+    "price": 765,
+    "category": "Beauty"
+  },
+  {
+    "id": 97,
+    "name": "Desk Organizer 3",
+    "price": 1695,
+    "category": "Office"
+  },
+  {
+    "id": 98,
+    "name": "Printer Paper 3",
+    "price": 1385,
+    "category": "Office"
+  },
+  {
+    "id": 99,
+    "name": "Pen Set 3",
+    "price": 495,
+    "category": "Office"
+  },
+  {
+    "id": 100,
+    "name": "Laptop 4",
+    "price": 48260,
+    "category": "Electronics"
+  }
+]

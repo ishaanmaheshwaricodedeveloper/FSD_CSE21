@@ -1,0 +1,6 @@
+index.js
+server npm init package.json
+npm i express cors
+vite React
+npm create vite @latest
+cors: react port and express port
